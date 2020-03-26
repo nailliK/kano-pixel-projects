@@ -1,0 +1,35 @@
+{
+  "name": "kano-pixel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "array-move": "^2.2.1",
+    "body-parser": "^1.19.0",
+    "chroma-js": "^2.1.0",
+    "colorsys": "^1.0.22",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "get-pixels": "^3.3.2",
+    "get-rgba-palette": "^2.0.1",
+    "http": "0.0.0",
+    "imagejs": "0.0.9",
+    "lodash": "^4.17.15",
+    "nodemon": "*",
+    "serialport": "*",
+    "twilio": "^3.39.3",
+    "underscore": "^1.9.2",
+    "uuid": "*",
+    "ws": "*"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*"
+    ],
+    "delay": 1000
+  },
+  "scripts": {
+    "start": "nodemon --experimental-modules ./index.js"
+  }
+}
